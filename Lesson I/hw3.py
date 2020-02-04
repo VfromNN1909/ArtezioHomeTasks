@@ -8,6 +8,7 @@ def fast(s):
     else:
         return s[:2] + s[-2::1]
 
+
 # проверка функции
 s = input('Enter your string: ')
 print(fast(s))
